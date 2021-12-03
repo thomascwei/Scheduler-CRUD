@@ -1,0 +1,47 @@
+ERROR: 2021/11/24 08:59:19 utils.go:42: sql: no rows in result set
+ERROR: 2021/11/24 08:59:52 utils.go:42: sql: no rows in result set
+ERROR: 2021/11/24 09:03:53 utils.go:42: sql: no rows in result set
+ERROR: 2021/11/24 09:11:20 utils.go:42: sql: no rows in result set
+ERROR: 2021/11/24 09:12:28 utils.go:42: sql: no rows in result set
+ERROR: 2021/11/24 09:14:49 utils.go:42: sql: no rows in result set
+ERROR: 2021/11/24 09:16:32 utils.go:42: sql: no rows in result set
+ERROR: 2021/11/24 09:17:09 utils.go:42: sql: no rows in result set
+ERROR: 2021/11/24 09:21:24 utils.go:42: sql: no rows in result set
+ERROR: 2021/11/24 09:34:19 utils.go:42: sql: no rows in result set
+ERROR: 2021/11/24 09:47:11 utils.go:42: sql: no rows in result set
+ERROR: 2021/11/24 09:47:43 utils.go:42: sql: no rows in result set
+ERROR: 2021/11/24 10:04:55 utils.go:55: src and dst must be of same type
+ERROR: 2021/11/24 10:04:55 routes.go:44: src and dst must be of same type
+ERROR: 2021/11/24 10:09:48 utils.go:55: src and dst must be of same type
+ERROR: 2021/11/24 10:09:48 routes.go:44: src and dst must be of same type
+ERROR: 2021/11/24 10:10:22 utils.go:55: src and dst must be of same type
+ERROR: 2021/11/24 10:10:22 routes.go:44: src and dst must be of same type
+ERROR: 2021/11/24 10:15:38 utils.go:56: src and dst must be of same type
+ERROR: 2021/11/24 10:15:38 routes.go:44: src and dst must be of same type
+ERROR: 2021/11/24 10:21:40 utils.go:55: src and dst must be of same type
+ERROR: 2021/11/24 10:21:40 routes.go:44: src and dst must be of same type
+ERROR: 2021/11/24 10:24:02 utils.go:55: src and dst must be of same type
+ERROR: 2021/11/24 10:24:02 routes.go:44: src and dst must be of same type
+ERROR: 2021/11/24 10:26:27 utils.go:55: src and dst must be of same type
+ERROR: 2021/11/24 10:26:27 routes.go:44: src and dst must be of same type
+ERROR: 2021/11/24 10:32:02 utils.go:54: src and dst must be of same type
+ERROR: 2021/11/24 10:33:56 utils.go:54: src and dst must be of same type
+ERROR: 2021/11/24 10:35:54 utils.go:41: sql: no rows in result set
+ERROR: 2021/11/25 10:25:55 utils.go:41: sql: no rows in result set
+ERROR: 2021/12/02 13:34:13 utils.go:41: sql: no rows in result set
+ERROR: 2021/12/02 13:34:32 utils.go:41: sql: no rows in result set
+ERROR: 2021/12/02 16:46:00 utils.go:54: Error 1045: Access denied for user ''@'localhost' (using password: NO)
+ERROR: 2021/12/02 16:47:19 utils.go:54: Error 1045: Access denied for user ''@'localhost' (using password: NO)
+ERROR: 2021/12/02 16:53:03 utils.go:54: Error 1045: Access denied for user ''@'localhost' (using password: NO)
+ERROR: 2021/12/02 16:53:52 utils.go:54: Error 1045: Access denied for user ''@'localhost' (using password: NO)
+ERROR: 2021/12/02 16:54:36 utils.go:54: Error 1045: Access denied for user ''@'localhost' (using password: NO)
+ERROR: 2021/12/02 16:55:42 utils.go:54: Error 1045: Access denied for user ''@'localhost' (using password: NO)
+ERROR: 2021/12/02 16:56:35 utils.go:54: Error 1045: Access denied for user ''@'localhost' (using password: NO)
+ERROR: 2021/12/02 16:59:12 utils.go:54: Error 1045: Access denied for user ''@'localhost' (using password: NO)
+ERROR: 2021/12/02 17:01:00 utils.go:55: Error 1045: Access denied for user ''@'localhost' (using password: NO)
+ERROR: 2021/12/02 17:02:24 utils.go:56: Error 1045: Access denied for user ''@'localhost' (using password: NO)
+ERROR: 2021/12/02 17:10:16 utils.go:56: Error 1045: Access denied for user ''@'localhost' (using password: NO)
+ERROR: 2021/12/02 22:25:32 utils.go:56: Error 1045: Access denied for user ''@'localhost' (using password: NO)
+ERROR: 2021/12/02 22:28:00 utils.go:56: Error 1045: Access denied for user ''@'localhost' (using password: NO)
+ERROR: 2021/12/02 22:29:16 utils.go:56: Error 1045: Access denied for user ''@'localhost' (using password: NO)
+ERROR: 2021/12/02 22:31:36 utils.go:55: Error 1045: Access denied for user ''@'localhost' (using password: NO)
