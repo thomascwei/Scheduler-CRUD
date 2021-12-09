@@ -45,6 +45,6 @@ func main() {
 	r.POST("/schedule/V1/update_schedule", internal.UpdateScheduleRoute)
 	r.POST("/schedule/V1/update_command", internal.UpdateCommandRoute)
 	r.GET("/schedule/V1/get_all_sub_schedules", internal.GetAllSubSchedulesRoute)
-
+	go internal.GrpcServer()
 	r.Run(":9567")
 }

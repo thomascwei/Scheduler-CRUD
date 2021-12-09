@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+package pb;
+option go_package = ".;pb";
+
+import "google/protobuf/timestamp.proto";
+
+message Empty {}
+
+message Command{
+  int32 id = 1;
+  string command = 2;
+  string create_time = 3;
+}
+
+message CommandsResp {
+  repeated Command command = 1;
+}
+
+message GetScheduleOneReq{
+  int32 id = 1;
+}
+
+message GetScheduleOneResp{
+  int32 id = 1;
+  int32 time_type_id = 2;
+  int32 interval_day = 3;
+  int32 interval_seconds = 4;
+  string at_time = 5;
+  string start_time = 6;
+  string end_time = 7;
+  int32 command_id = 8;
+  string name = 9;
+  google.protobuf.Timestamp start_date = 10;
+  google.protobuf.Timestamp end_date = 11;
+  bool enable = 12;
+  bool repeat = 13;
+  google.protobuf.Timestamp createTime = 14;
+  repeated string repeat_weekday = 15;
+  repeated string repeat_day = 16;
+  repeated string repeat_month = 17;
+
+}
+
+service GetScheduleCRUDService {
+  rpc GetCommands(Empty) returns (CommandsResp);
+  rpc GetScheduleOne(GetScheduleOneReq) returns (GetScheduleOneResp);
+}
