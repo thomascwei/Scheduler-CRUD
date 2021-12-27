@@ -15,9 +15,9 @@ import (
 )
 
 var (
-	file, _ = os.OpenFile("./log/utils.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
-	Trace   = log.New(os.Stdout, "TRACE: ", log.Ldate|log.Ltime|log.Lshortfile)
-	//Info    = log.New(io.MultiWriter(file, os.Stdout), "INFO: ", log.Ldate|log.Ltime|log.Lshortfile)
+	file, _  = os.OpenFile("./log/utils.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
+	Trace    = log.New(os.Stdout, "TRACE: ", log.Ldate|log.Ltime|log.Lshortfile)
+	Info     = log.New(io.MultiWriter(file, os.Stdout), "INFO: ", log.Ldate|log.Ltime|log.Lshortfile)
 	Error    = log.New(io.MultiWriter(file, os.Stdout), "ERROR: ", log.Ldate|log.Ltime|log.Lshortfile)
 	txoption = sql.TxOptions{
 		Isolation: 6,
@@ -25,7 +25,7 @@ var (
 	}
 
 	DBconfig     = LoadConfig("./config")
-	DBConnection = fmt.Sprintf("%s:%s@tcp(%s:%s)/schedule?charset=utf8&parseTime=true&parseTime=true",
+	DBConnection = fmt.Sprintf("%s:%s@tcp(%s:%s)/schedule?charset=utf8&parseTime=true&parseTime=true&loc=Local",
 		DBconfig.User, DBconfig.Password, DBconfig.Host, DBconfig.Port)
 	//DBConnection = "thomas:123456@tcp(host.docker.internal:3306)/schedule?charset=utf8&parseTime=true"
 	MyDB, _ = sql.Open("mysql", DBConnection)
